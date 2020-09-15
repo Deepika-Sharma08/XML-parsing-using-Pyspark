@@ -94,9 +94,9 @@ Note, batch size will depend on your system configuration, and so will num_of_pa
     5. Lets' convert results to pandas DataFrame
   
   
-  ![alt text](https://github.com/Deepika-Sharma08/XML-parsing-using-Pyspark/blob/master/images/im3.jpg?raw=true)
+  ![alt text](https://github.com/Deepika-Sharma08/XML-parsing-using-Pyspark/blob/master/images/im3.png?raw=true)
   
-  ![alt text](https://github.com/Deepika-Sharma08/XML-parsing-using-Pyspark/blob/master/images/im1.png?raw=true)
+  ![alt text](https://github.com/Deepika-Sharma08/XML-parsing-using-Pyspark/blob/master/images/im1.jpg?raw=true)
   
   
 

@@ -26,25 +26,25 @@ Here are the steps for parsing xml file using Pyspark functionalities
 
 ### Method 1
 
-  Step 1: Read XML files into RDD
-  file_rdd = spark.read.text("./xml_data/sample_order.xml", wholetext=True).rdd
+    Step 1: Read XML files into RDD
+    file_rdd = spark.read.text("./xml_data/sample_order.xml", wholetext=True).rdd
 
 
 
-  Step 2: Make use of the python library for XML parsing (in case RDD returns one long string of the entire data)
-  import xml.etree.ElementTree as ET
+     Step 2: Make use of the python library for XML parsing (in case RDD returns one long string of the entire data)
+    import xml.etree.ElementTree as ET
 
 
 
-  Step 3: file_rdd.take(1)
-  Lets look at a few entries of the xml file..
+    Step 3: file_rdd.take(1)
+    Lets look at a few entries of the xml file..
   
   ![alt text](https://github.com/Deepika-Sharma08/XML-parsing-using-Pyspark/blob/master/images/im4.png?raw=true)
   
 
 
-  Step 4:Lets get the root for parsing.
-  root = ET.fromstring(file_rdd.take(batch)[0][0])
+    Step 4:Lets get the root for parsing.
+    root = ET.fromstring(file_rdd.take(batch)[0][0])
   
   
   
